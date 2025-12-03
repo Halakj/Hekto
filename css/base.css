@@ -22,7 +22,7 @@ ul{
     border-radius: 2px;
 }
 .btn-primary{
-  background-color: var(--primry);
+  background-color: var(--primary);
 }
 .btn-success{
     background-color: #08D15F;
@@ -35,8 +35,19 @@ ul{
     width: 100%;
 }
 .container{
+   
     width:calc(100% - 320px);
     margin: auto;
+}
+@media screen and (max-width:1400px){
+    .container{
+        width: calc(100%-200px);
+    }
+}
+@media screen and (max-width:992px){
+    .container{
+        width:calc(100%-) ;
+    }
 }
 .text-white{
     color:#fff;
